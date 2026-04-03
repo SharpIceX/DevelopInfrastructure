@@ -1,0 +1,47 @@
+{
+	"name": "name",
+	"private": true,
+	"type": "module",
+	"version": "1.0.0",
+	"license": "MPL-2.0",
+	"description": "描述",
+	"repository": "github:SharpIceX/template",
+	"homepage": "https://github.com/SharpIceX/template",
+	"bugs": {
+		"email": "SharpIce@SharpIce.top",
+		"url": "https://github.com/SharpIceX/template/issues"
+	},
+	"author": {
+		"name": "SharpIce",
+		"url": "https://SharpIce.top",
+		"email": "SharpIce@SharpIce.top"
+	},
+	"engines": {
+		"node": ">=22"
+	},
+	"devEngines": {
+		"runtime": {
+			"name": "node",
+			"onFail": "error"
+		},
+		"packageManager": {
+			"name": "pnpm",
+			"onFail": "error"
+		}
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"clean": "rimraf dist",
+		"format": "prettier . --write"
+	},
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"@types/node": "^25.5.0",
+		"eslint": "^10.1.0",
+		"eslint-config-prettier": "^10.1.8",
+		"jiti": "^2.6.1",
+		"prettier": "^3.8.1",
+		"rimraf": "^6.1.3",
+		"typescript": "^6.0.2"
+	}
+}
