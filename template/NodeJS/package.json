@@ -16,17 +16,16 @@
 		"url": "https://SharpIce.top",
 		"email": "SharpIce@SharpIce.top"
 	},
-	"engines": {
-		"node": ">=22"
-	},
 	"devEngines": {
 		"runtime": {
 			"name": "node",
-			"onFail": "error"
+			"onFail": "error",
+			"version": "24.22"
 		},
 		"packageManager": {
 			"name": "pnpm",
-			"onFail": "error"
+			"onFail": "error",
+			"version": ">=12.18"
 		}
 	},
 	"scripts": {
@@ -36,12 +35,12 @@
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
-		"@types/node": "^25.5.0",
-		"eslint": "^10.1.0",
+		"@types/node": "^26.6.6",
+		"eslint": "^10.14.0",
 		"eslint-config-prettier": "^10.1.8",
-		"jiti": "^2.6.1",
-		"prettier": "^3.8.1",
-		"rimraf": "^6.1.3",
-		"typescript": "^6.0.2"
+		"jiti": "^2.7.0",
+		"prettier": "^3.9.10",
+		"rimraf": "^6.1.4",
+		"typescript": "^7.0.2"
 	}
 }
